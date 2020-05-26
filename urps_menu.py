@@ -3,6 +3,7 @@ from urps_xkjg import *
 from urps_zxyk import *
 from urps_scor import *
 from urps_conf import *
+from urps_yjpj import *
 def urps_menu():
     os.system('cls')
     os.system('color 3f')
@@ -35,7 +36,7 @@ def urps_menu():
             if user_chos == 1:
                 urps_jdjs()
             if user_chos == 2:
-                pass
+                urps_zdpj()
             if user_chos == 3:
                 urps_zdqk(http_main)
             if user_chos == 4:
